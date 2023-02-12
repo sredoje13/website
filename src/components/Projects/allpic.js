@@ -1,0 +1,32 @@
+import Im1 from './eksterijer/images (1).jpeg'
+import Im2 from './eksterijer/images (2).jpeg'
+import Im3 from './eksterijer/images (3).jpeg'
+import Im4 from './eksterijer/images.jpeg'
+import Im5 from './eksterijer/преузимање (1).jpeg'
+import Im6 from './eksterijer/преузимање (2).jpeg'
+import Im7 from './eksterijer/преузимање (3).jpeg'
+import Im8 from './eksterijer/преузимање.jpeg'
+import IMG0 from './enterijer/big-145405276_639be58fef37b6-50405032Glass-construct (prva kopija).jpg'
+import IMG1 from './enterijer/images (1).jpeg'
+import IMG2 from './enterijer/images (2).jpeg'
+import IMG3 from './enterijer/images (3).jpeg'
+import IMG4 from './enterijer/images.jpeg'
+import IMG5 from './enterijer/преузимање (2).jpeg'
+import IMG6 from './enterijer/преузимање.jpeg'
+import IMMM1 from './izgradnja/images (1).jpeg'
+import IMMM2 from './izgradnja/images (2).jpeg'
+import IMMM3 from './izgradnja/images (3).jpeg'
+import IMMM4 from './izgradnja/images.jpeg'
+import IMMM5 from './izgradnja/izvodjenje-gradjevinskih-radova-5425616558162-71783232045.jpg'
+import IMMM6 from './izgradnja/преузимање (1).jpeg'
+import IMMM7 from './izgradnja/преузимање.jpeg'
+import IMI from './zavrsni radovi/images (1).jpeg'
+import IMI1 from './zavrsni radovi/images (2).jpeg'
+import IMI2 from './zavrsni radovi/images.jpeg'
+import IMI3 from './zavrsni radovi/преузимање (1).jpeg'
+import IMI4 from './zavrsni radovi/преузимање.jpeg'
+
+export const images1=[Im1,Im2,Im3,Im4,Im5,Im6,Im7,Im8]
+export const images2=[IMG0,IMG1,IMG2,IMG3,IMG4,IMG5,IMG6]
+export const images3=[IMMM1,IMMM2,IMMM3,IMMM4,IMMM5,IMMM6,IMMM7]
+export const images4=[IMI,IMI1,IMI2,IMI3,IMI4]

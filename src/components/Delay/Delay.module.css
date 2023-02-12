@@ -1,0 +1,34 @@
+.delay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position:relative ; 
+    margin-bottom: 20px;
+}
+.img{
+   width:15% ;
+   height:auto;
+   margin-top:5%;
+   display: flex;
+   flex-direction: column;
+   
+}
+.p{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+.p:hover{color: black;}
+@media only screen and (max-width:200px){
+   
+    *{font-size: xx-small;
+  width:auto;
+  height: auto;}
+  }
+  @media only screen and (max-width:370px){
+   .p{
+    font-size: x-small;
+   }
+  }

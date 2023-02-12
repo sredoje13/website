@@ -1,0 +1,176 @@
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+width: 100%;
+padding-top: 1%;
+padding-bottom: 1%;
+
+background-color: rgb(255, 255, 255);
+ 
+}
+.layout{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+    width: 100%;
+    z-index: 100;
+   
+}
+.navbaritems{
+    color:grey;
+margin: 1%;
+font-size: large;
+margin-right: 3%;
+}
+.navbaritems:hover,:active{
+    color:black;
+    cursor:pointer
+
+}
+.ontopnav{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    height: 30px;
+    background-color: rgb(44, 42, 42);
+    align-items: center;
+   padding-right: 5%;
+   
+}
+.igfb{
+    text-decoration: none;
+    color: white;
+  
+    cursor:pointer;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.aspan{
+    text-decoration: none;
+    color: white;
+   
+   
+}
+
+
+.ontopnav p{
+    margin-right: 4%;
+    margin-left: 2%;
+    color:white;
+    cursor:pointer 
+}
+.ontopnav a:hover, p:hover,span:hover{
+    color:grey
+}
+
+
+.sizenavbar{
+    background-color: aliceblue;
+   
+   
+    width: 100vw;
+    z-index: 100;
+    height:20px;
+    overflow-y: hidden;
+    margin-bottom: 0px;
+
+}
+
+.ahref{
+    cursor:pointer;
+    text-decoration: none;
+    font-size: xxx-large;
+    color:green;
+    margin-right: 85%;
+  
+}
+.ahref:hover{
+    color:grey
+}
+
+@media only screen and (max-width:1000px){
+   
+    .ahref{
+       
+        margin-right: 80%;
+      
+    }
+   
+  
+}
+@media only screen and (max-width:850px){
+    
+    .igfb{
+        font-size: small;
+        margin-top: 3px;
+
+    }
+    .navbaritems{
+        font-size: small;
+        margin-right: 4%;
+       
+    }
+ 
+   
+  
+}
+
+@media only screen and (max-width:650px){
+    
+   
+  
+    .navbaritems{
+        font-size: smaller;
+        margin-right: 5%;
+    }
+    .ahref{
+       
+        font-size: x-large;
+      
+    }
+
+}
+@media only screen and (max-width:580px){
+    .ahref{
+       
+        margin-right: 75%;
+      
+    }
+    .ontopnav{
+    justify-content: space-around;
+  }}
+  @media only screen and (max-width:400px){
+    .navbaritems{
+        
+    margin-right: 0px
+    }
+  .ahref{
+    margin-right:0px
+  }}
+ 
+@media only screen and (max-width:490px){
+    
+  
+  
+    .igfb{font-size: x-small;
+   }}
+ 
+@media only screen and (max-width:310px){
+   .navbaritems{
+    font-size: xx-small;
+   }
+    .ontopnav{
+    display: none;
+  }
+}
+@media only screen and (max-width:200px){
+   
+  *{font-size: xx-small;
+width:auto;
+height: auto;}
+}

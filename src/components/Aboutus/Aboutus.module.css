@@ -1,0 +1,123 @@
+.aboutus{
+    background-color: rgb(8, 91, 8);
+    display: flex;
+  width: 100vw;
+    align-items: center;
+   padding-bottom: 30px;
+}
+.div1{
+margin-left: 25%;
+height:10%
+}
+.div1 h2{
+    text-align: center;
+    color:white;
+    margin-left: 0%;
+    width:100%
+}
+.divimg{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+   
+}
+.textdiv{
+ display: flex;
+ text-align: start;
+ color:rgb(150, 241, 150);
+
+ 
+
+}
+.img{
+    width:50%;
+    height: auto;
+   padding-top:5%; 
+}
+.img2{
+    width:50%;
+    height: auto;
+    margin-top: 5%;
+    padding-bottom: 5%; 
+}
+@media only screen and (max-width:1290px){
+    .textdiv{
+      
+     font-size: smaller;        
+       
+}
+.div1 h2{
+    font-size: smaller;
+}
+
+}
+
+@media only screen and (max-width:1100px){
+    .textdiv{
+      
+     font-size: x-small;        
+       
+}
+.div1 h2{
+    font-size: 50%;
+  
+}
+
+}
+@media only screen and (max-width:900px){
+    .textdiv{
+      
+     font-size: xx-small;        
+       
+}
+.div1 h2{
+    font-size: 50%;
+}
+
+}
+@media only screen and (max-width:850px){
+    .textdiv{
+        font-size: 50%;
+      max-height: 100px;
+      width:150%;
+      margin-left: -50%;
+      overflow-y: scroll;
+     font-size: xx-small;  
+      
+       
+}
+.div1 h2{
+    margin-left:-30% ;
+   
+}
+.divimg{
+margin-right: -20%;
+margin-left: 10%;
+}
+
+}
+@media only screen and (max-width:580px){
+    .textdiv{
+        font-size: 10%;
+      max-height: 55px;
+      width:150%;
+      margin-left: -50%;
+      overflow-y: scroll;
+     font-size: xx-small;  
+      
+       
+}
+.div1 h2{
+    font-size: 5px;
+}
+.divimg{
+margin-right: -20%;
+margin-left: 10%;
+}
+
+}
+
+
+
+

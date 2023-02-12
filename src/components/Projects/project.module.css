@@ -1,0 +1,248 @@
+.img{
+width: 330px;
+padding: 2px;
+height: 300px;
+cursor:pointer;
+
+}
+.img:hover{
+    scale: 1.05;
+   
+    transition: scale 300ms ease-in-out;
+}
+.zoomimg{
+position: absolute;
+scale:1.8;
+z-index: 100;
+width:200px;
+height:200px;
+margin-top: -400px;
+cursor:pointer;
+
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 100%;
+   
+}
+.zoomdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 400px;
+width: 100%;
+}
+.none{
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btndiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color:rgb(7, 127, 7);
+}
+.slider{width: 90%;
+    height: 300px;
+    overflow-y: hidden;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+   -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+    white-space: nowrap;
+    display: flex;
+flex-direction: row;
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+.btns{
+    color:rgb(7, 127, 7);
+    border:none;
+    background-color: white;
+    outline:none;
+    cursor:pointer;
+    font-size: large;
+}
+.active{
+    border-bottom: 2px solid rgb(158, 152, 152);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.first,.sec,.third,.four{
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width:900px){
+
+  
+  .img{
+    height: 200px;
+    width: 230px;
+  }
+       .box{
+        height: 250px;
+       }
+       .slider{
+        height: 200px;
+       }
+       .zoomimg{
+       
+        width:130px;
+        height:130px;
+        margin-top: -250px;
+      
+        
+        }
+     
+    }
+@media only screen and (max-width:720px){
+    .zoomimg{
+       
+        width:120px;
+        height:120px;
+        margin-top: -240px;
+      
+        
+        }
+        
+        .img{
+            width: 170px;
+            height: 150px;
+          
+            
+            }
+            .slider{
+                height: 150px;
+               }
+        
+               .box{
+                height: 250px;
+               }
+}
+
+@media only screen and (max-width:550px){
+
+    .zoomimg{
+       
+        width:100px;
+        height:100px;
+        margin-top: -190px;
+      
+        
+        }
+       .slider{
+        height: 100px;
+       }
+
+       .box{
+        height: 200px;
+       }
+       .img{
+        width: 120px;
+       
+        height: 100px;
+       
+        
+        }
+        .btns{
+            font-size: small;
+        }
+        
+    }
+
+@media only screen and (max-width:453px){
+
+    .zoomimg{
+       
+        width:80px;
+        height:80px;
+        margin-top: -180px;
+      
+        
+        }
+       .slider{
+        height: 70px;
+       }
+
+       .box{
+        height: 180px;
+       }
+       .img{
+        width: 90px;
+        height: 70px;
+      
+        
+        }
+        .btns{
+            font-size: x-small;
+        }
+        .active{
+         margin-left: 10px;
+         margin-right: 10px;
+        }
+        .none{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+@media only screen and (max-width:320px){
+    .btns{
+        font-size: xx-small;
+    }
+    .active{
+     margin-left: 5px;
+     margin-right: 5px;
+    }
+    .none{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .zoomimg{
+       
+        width:60px;
+        height:60px;
+       margin-top: -160px;
+      
+      
+        
+        }
+       .slider{
+        height: 50px;
+       }
+
+       .box{
+        height: 160px;
+       }
+       .img{
+        width: 80px;
+        height: 50px;
+      
+        
+        }
+    }
+    @media only screen and (max-width:200px){
+   
+        *{font-size: xx-small;
+      width:auto;
+      height: auto;}
+      }

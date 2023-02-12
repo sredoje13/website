@@ -1,0 +1,158 @@
+.h1{
+ animation: opacityh1 3s ;   
+color:rgb(6, 175, 17);
+padding-top: 5%;
+font-size: 600%;
+text-align: start;
+margin-left: 10%;
+
+}
+.h2{
+    color:black;
+    opacity: 2;
+    text-align: start;
+    margin-left: 10%;
+    margin-top: -3%;
+}
+.div1{
+ text-align: start;
+ margin-left: 10%;
+ width:50%;
+ color:rgb(22, 95, 7);
+padding-bottom: 10%;
+}
+.img{
+width:500px
+
+}
+.p{
+    cursor: pointer;
+    width:30%;
+    background-color: white;
+    padding:5px
+    
+}
+.p:hover{
+    color: green;
+}
+.imgp{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv{ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+@keyframes opacityh1{
+    0%{opacity: 0;
+    
+    };
+    50%{
+opacity: 0.5
+    };
+    100%{
+        opacity: 1;
+
+    }
+}
+@media only screen and (max-width:1000px){
+    .h1{
+        
+       font-size: 400%;
+      
+       
+       }
+       .h2{
+          font-size: smaller;
+         
+       }
+       .div1{
+        font-size: smaller;
+        width:80%;
+       
+       }
+    }
+@media only screen and (max-width:760px){
+.img{
+    width:300px;
+  
+}
+.p{
+ font-size: x-small;
+    width:20%
+   
+    
+}
+.h1{
+        
+    font-size: 300%;
+   padding-top: 50px;
+    
+    }
+    .h2{
+       font-size:small;
+      
+    }
+    .div1{
+    font-size: small;
+    
+    }
+}
+@media only screen and (max-width:540px){
+  
+    .h1{
+            
+        font-size: 200%;
+       
+        
+        }
+        .h2{
+           font-size:x-small;
+          
+        }
+        .div1{
+        font-size: x-small;
+        
+        }
+    }
+@media only screen and (max-width:430px){
+    .img{
+        width:130px;
+      
+    }
+    .p{
+     font-size: x-small;
+        width:40%
+       
+        
+    }
+    .h1{
+        
+        font-size: 150%;
+       padding-top: 60px;
+        
+        }
+        .h2{
+           font-size:xx-small;
+          
+        }
+        .div1{
+        font-size:xx-small;
+        
+        }
+    }
+    @media only screen and (max-width:310px){
+        .img{
+            width:100px;
+          
+        }
+        .p{
+         font-size: xx-small;
+            width:40%
+           
+            
+        }
+        }

@@ -1,0 +1,131 @@
+.saradnja{
+margin-right: 20px;
+text-align: start;
+}
+.contactdiv{
+ margin-left:20px ;
+ background-color: rgb(57, 56, 56);
+ color:white;
+ padding: 20px;
+ cursor: pointer;
+}
+.contactdiv:hover{
+    scale: 1.2;
+}
+.footer{
+    background-color: green;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.stayfooter{}
+
+.copyr{
+ margin-top: 80px;
+ margin-bottom: 50px;
+ text-shadow: 1px 1px 2px rgb(6, 6, 6), 0 0 1em rgb(13, 224, 28), 0 0 0.2em rgb(249, 249, 247);
+}
+.emptydiv{
+    margin-top: 30px;
+    height: 30px;
+    background-image:repeating-linear-gradient(45deg,rgb(7, 7, 7) , rgb(253, 253, 249) 10px, green 20px);
+    
+}
+.cicon{
+    margin-top: -2.37px;
+    margin-right: 5px;
+}
+@media only screen and (max-width:850px){
+    .saradnja{
+        font-size: small;
+        width: 50%;
+        }
+        .saradnja h3{
+            font-size: medium;
+        }
+        .contactdiv{
+        font-size:smaller ;
+        } 
+}
+@media only screen and (max-width:500px){
+    .saradnja{
+        
+        width: 30%;
+        }
+        .saradnja h3{
+            font-size: small;
+        }
+        .contactdiv{
+        font-size:small ;
+        padding: 10px;
+        } 
+    .emptydiv{
+        margin-top: 20px;
+        height: 20px;
+        
+    }
+    .copyr{
+        font-size: smaller;
+        
+       }
+
+}
+@media only screen and (max-width:400px){
+    .saradnja{
+        font-size: x-small;
+        width: 40%;
+        margin-right: 10px;
+        }
+        .saradnja h3{
+            font-size:x-small;
+        }
+        .contactdiv{
+        font-size:x-small ;
+        padding: 5px;
+        margin-left:5px ;
+        }
+    .emptydiv{
+        margin-top: 20px;
+        height: 15px;
+        
+    }
+    .copyr{
+        font-size: small;
+        
+       }
+}
+@media only screen and (max-width:300px){
+    .saradnja{
+        font-size: xx-small;
+        width: 50%;
+        margin-right: 5px;
+        }
+        .saradnja h3{
+            font-size:xx-small;
+
+        }
+        .contactdiv{
+        font-size:xx-small ;
+        padding: 3px;
+        margin-left:0px ;
+        }
+
+    .emptydiv{
+        margin-top: 20px;
+        height: 17px;
+        
+    }
+    .copyr{
+        font-size:x-small;
+        
+       }
+}
+@media only screen and (max-width:200px){
+   
+    *{font-size: xx-small;
+  width:auto;
+  height: auto;}
+  }

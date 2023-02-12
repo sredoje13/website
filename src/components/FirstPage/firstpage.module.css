@@ -1,0 +1,97 @@
+.img{
+    width:100vw ;
+    height: 100vh;
+   
+   
+}
+.navbarmenu{
+    display: flex;
+
+}
+ 
+.imgdiv{
+    padding: 0px;
+    width:100vw;
+    position: relative;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 188, 188);
+    padding-top:5%
+}
+.logo{font-family: 'Niconne', cursive;
+    position: absolute;
+   
+    color:rgb(32, 143, 22);
+    font-size:1200%;
+    text-shadow: 1px 0px 50px rgb(8, 46, 3), 0 0 1em rgb(238, 242, 235), 0 0 0.1em rgb(0, 0, 0);
+  
+}
+@media only screen and (max-width:1980px){
+    .logo{
+        font-size:1000%;
+    }
+  
+}
+@media only screen and (max-width:1140px){
+    .logo{
+        font-size:800%;
+    }
+   
+}
+@media only screen and (max-width:1000px){
+    .img{
+       
+        height: 1000px;
+        overflow: hidden;
+            }
+}
+@media only screen and (max-width:940px){
+    .logo{
+        font-size:600%;
+    }
+    .img{
+       
+        height: 790px;
+        overflow: hidden;
+            }
+    
+}
+@media only screen and (max-width:650px){
+    .logo{
+        font-size:400%;
+    }
+    .img{
+      
+        height: 500px;
+        overflow: hidden;
+            }
+
+    
+}
+@media only screen and (max-width:550px){
+    .logo{
+        font-size:400%;
+    }
+    .imgdiv{
+
+height: 400px;
+overflow: hidden;
+    }
+    
+}
+@media only screen and (max-width:350px){
+    .logo{
+        font-size:200%;
+    }
+    .imgdiv{
+
+height: 200px;
+overflow: hidden;
+    }
+    
+}
+
+
